@@ -1,0 +1,92 @@
+minikube                                                                      
+ 13  minikube start  --vm-driver=none                                               
+14  install docekr                                                                
+ 15  docker                                                                        
+ 16  sudo amazon-linux-extras install docker                                      
+  17  sduo service docker start                                                     
+ 18  sudo service docekr start                                                    
+  19  sudo service docker start                                                      
+20  sudo usermod -a -G docker ec2-user                                            
+ 21  sudo chkconfig docker on                                                       
+22  sudo yum install -y git                                                        
+23  sudo reboot                                                                   
+ 24  minikubec status                                                               
+25  minikube status                                                               
+ 26  kubectl get pods                                                              
+ 27  kubectl describe pod nginx-deployment-84cd76b964-9kr96                         
+28  kubectl get pods                                                             
+  29  kubectl describe pod nginx-deployment-84cd76b964-9kr96                         
+30  kubectl get pods                                                              
+ 31  kubectl exce -it mongo-depl-5fd6b7d4b4-bn4fx --bin/bash                 
+ 32  kubectl exec -it nginx-deployment-84cd76b964-9kr96 -- bin/bash                 
+33  kuebctl delete pod nginx-deployment-84cd76b964-9kr96                           
+34  kubectl delete nginx-deployment-84cd76b964-9kr96                               
+35  kubectl get deployments                                                        
+36  kubectl delete mongo-depl                                                  
+    37  kubectl delete deployent mongo-depl                                            
+38  kubectl delete deployment mongo-depl                                           
+39  kubectl get deployments                                                       
+ 40  kubectl create deployment mongo-depl --image=mongo                             
+41  kuebctl get pods                                                               
+42  kubectl get pods                                                               
+43  kubectl get replicaset                                                       
+  44  kubectl delete deployment mongo-depli                                         
+ 45  kubectl delete deployment mongo-depll                                          
+46  kubectl get pods                                                               
+47  kuebtl get deployments                                                         
+48  kuebctl get deployments                                                        
+49  kubectl get delpyments                                                        
+ 50  kuebctl get deployments                                                      
+51  kubectl get deploments                                                         
+52  kubectl get delpoymnets                                                        
+53  kubectl get deploymnets                                                        
+54  kuebctl get pods                                                              
+ 55  kubectl get pods                                                               
+56  kuebctl get deploymnets                                                        
+57  kubectl get deployments                                                        
+58  kubectl delete deployment mongo-depl                                          
+ 59  kubectl get deployments                                                        
+60  kuebctl get replicaset                                                         
+61  kubectl get replicaset                                                        
+ 62  kubectl apply -f cnfig-file.yaml                                               
+63  kubectl apply -f nginx-deployment.yaml                                         
+64  touch nginx-deployment.yaml                                                    
+
+
+65  vim nginx-deployment.yaml                                                      
+66  kubectl get pods                                                               
+67  kuebctl edit deployment nginx-depl                                             
+68  kubectl edit deployment nginx-depl                                            
+ 69  kubectl create deployment mongo-depl --image=mongo                             
+70  kubectl edit deployment mongo-depl                                             
+71  vim nginx-deployment.yaml                                                      
+72  kubectl apply -f nginx-deployment.yaml                                         
+73  vim nginx-depoyment.yaml                                                       
+74  vim nginx-deployment.yaml                                                      
+75  kubectl nginx-deployment.yaml                                                  
+76  kubectl get pods                                                               
+77  kuebctl get services                                                           
+78  kuebctl get sevies                                                             
+79  kubectl get delpoyments                                                      
+
+  80  kubectl get deployments                                                       
+ 81  kuebctl get pods                                                               
+82  kubectl get pods                                                            
+   83  ls                                                                             
+84  kubectl apply -f nginx-deployment.yaml                                      
+   85  vim nignx-deployment.yaml                                                    
+  86  kubectl                                                                       
+ 87  kuebctl -h                                                                    
+ 88  kubectl -h                                                                    
+ 89  ls                                                                             
+
+90  ps                                                                            
+ 
+91  pwd                                                                          
+ 92  kubectl getp pods                                                              
+93  kubectl get pods                                                               
+94  ls                                                                           
+  95  touch bala-deployment.yaml                                                    
+ 96  ls                                                                             
+97  vim bala-deployment.yaml                                                       
+98  history
